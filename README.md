@@ -42,10 +42,12 @@ Clone the repo and open the project folder in VS Code.
 
 To clone: (command)
 
-```bash
+run this command:
 git clone YOUR_REPO_LINK
+
+then this:
 cd rubber-duck-ai
-```
+
 
 ---
 
@@ -53,9 +55,9 @@ cd rubber-duck-ai
 
 Open a new terminal inside the project folder and run:
 
-```bash
+run this command:
 ollama --version
-```
+
 
 If installed correctly, it should display the Ollama version.
 
@@ -65,9 +67,9 @@ If installed correctly, it should display the Ollama version.
 
 ### Recommended
 
-```bash
+run this command:
 ollama pull llama3.2
-```
+
 
 Requires around 8GB RAM.
 
@@ -75,17 +77,17 @@ Requires around 8GB RAM.
 
 ### If your PC is slower
 
-```bash
+run this command:
 ollama pull llama2
-```
+
 
 ---
 
 ### Lightweight Option
 
-```bash
+run this command:
 ollama pull phi3
-```
+
 
 This step may take a while depending on your internet speed. Be patient.
 
@@ -93,9 +95,9 @@ This step may take a while depending on your internet speed. Be patient.
 
 ## Step 5 — Create a Virtual Environment
 
-```bash
+run this command:
 python -m venv venv
-```
+
 
 ---
 
@@ -103,33 +105,33 @@ python -m venv venv
 
 ### PowerShell
 
-```bash
+run this command:
 .\venv\Scripts\Activate.ps1
-```
+
 
 ---
 
 ### If that doesn't work
 
-```bash
+run this command:
 venv\Scripts\activate.bat
-```
+
 
 ---
 
 ## Step 7 — Install Ollama Python Package
 
-```bash
+run this command:
 pip install ollama
-```
+
 
 ---
 
 ## Step 8 — Install Project Requirements
 
-```bash
+run this command:
 pip install -r requirements.txt
-```
+
 
 ---
 
@@ -137,15 +139,15 @@ pip install -r requirements.txt
 
 Open:
 
-```text
+the file named:
 main.py
-```
+
 
 Replace:
 
-```python
+In the file on 6th line:
 CHAT_MODEL = "llama3.2"
-```
+
 
 with the model you downloaded.
 
@@ -159,17 +161,17 @@ ollama pull llama2
 
 Then change it to:
 
-```python
+change to this on 6th line:
 CHAT_MODEL = "llama2"
-```
+
 
 ---
 
 ## Step 10 — Run the App
 
-```bash
+run this command:
 python main.py
-```
+
 
 ---
 
@@ -179,9 +181,9 @@ You can load a code file directly into the AI using:
 
 you can just drag the file from the left panel of vs code into the terminal!
 
-```text
+run this command when you want to ask it to look at your code:
 /read <filename.py>
-```
+ (Drag and drop the file beside /resd)
 
 Example:
 
