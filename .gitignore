@@ -1,0 +1,15 @@
+# personal data
+user_name.txt
+history.json
+
+# environment
+venv/
+.env
+
+# python
+__pycache__/
+*.pyc
+
+
+# vscode
+.vscode/
