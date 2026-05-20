@@ -8,7 +8,6 @@ venv/
 
 # python
 __pycache__/
-*.pyc
 
 
 # vscode
